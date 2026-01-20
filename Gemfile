@@ -1,8 +1,10 @@
 source 'https://rubygems.org'
 
 # https://devcenter.heroku.com/articles/ruby-support#supported-runtimes
-ruby '3.4.8'
+ruby '4.0.1'
 gem 'base64'
+gem 'ostruct'
+gem 'logger'
 
 # Framework
 gem 'sinatra', '~> 2.2.3'
